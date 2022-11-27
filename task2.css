@@ -1,0 +1,121 @@
+.sign_up{
+    width: 588px;
+    height: 1040px;
+    background-image: url(./background.png);
+    filter: brightness(130%);
+    background-position: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header{
+    margin: 32px auto 0;
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign_up_title{
+    font-size: 32px;
+    font-family: "[Lato]",sans-serif;
+    color: rgb(206,231,234,0.7);
+    margin-top: 8px;
+}   
+
+.icon-fanhui2,.icon-zhuyi{
+    font-size: 46px;
+    font-weight: bolder;
+    color: rgb(147,203,211,0.5);
+}
+
+.input{
+    margin: 70px auto 0;
+    width: 441px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo{
+    width: 148px;
+    height: 148px;
+    background-color: rgb(255,255,255,0.1);
+    border: 2px solid rgb(151, 181, 205,0.6);
+    border-radius: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-tianjia{
+    font-size: 54px;
+    color: rgb(192,218,227,0.75);
+}
+
+.photo_word{
+    font-size: 19.61px;
+    font-family: "[Lato]",sans-serif;
+    font-weight: bolder;
+    color: rgb(192, 218, 227, 0.6);
+    margin-top: 8px;
+}
+
+input{
+    width: 441px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(151, 181, 205, 0.5);
+}
+
+.information div{
+    font-family: "[Lato]", sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.password input{
+    border: none;
+    width: auto;
+}
+
+.password{
+    display: flex;
+    justify-content: space-between;
+}
+
+.show{
+    font-size: 23px;
+    font-family: "[Lato]", sans-serif;
+    color: #3cffb5;
+}
+
+.button{
+    width: 441px;
+    height: 75px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    margin: 74px auto 0;
+    text-align: center;
+    line-height: 73px;
+    font-family: "[Lato]", sans-serif;
+    font-size: 32.96px;
+    font-weight: bolder;
+    color: #6d6a9d;
+}
+
+.sign_in{
+    display: flex;
+    justify-content: center;
+    font-family: "[Lato]", sans-serif;
+    font-size: 22.96px;
+    color: #ffffff;
+    margin: 32px auto 0;
+}
+
+.sign_in a{
+    color: #3cffb5;
+}
